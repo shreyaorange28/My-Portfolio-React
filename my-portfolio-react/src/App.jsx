@@ -77,7 +77,7 @@ function App() {
         rounded-xl border p-2 outline-none ring-2 ring-transparent 
         focus:ring-purple-400"></textarea>
       </form>
-      <button className="rounded-full bg-purple-500 px-4 py-2 text-white hover:bg-purple-500"></button>
+      <button className="rounded-full bg-purple-500 px-4 py-2 text-white hover:bg-purple-500">Send</button>
     </div>
     ),
     tab5: (
@@ -117,7 +117,7 @@ function App() {
          <h1 className="text-3xl font-bold underline">
           Hello world!
         </h1> */}
-        {/* sets up the mainwhite block */}
+        {/* sets up the main block */}
         <div className="max-w-[500px] rounded-3xl border bg-white p-8 mx-10 shadow-xl space-y-5">
           {/* div for tabs */}
           <div className="flex flex-wrap border-b">
