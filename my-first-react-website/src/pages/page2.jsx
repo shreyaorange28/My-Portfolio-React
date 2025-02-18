@@ -1,5 +1,6 @@
 import { useState } from "react";
-function App() {
+import "./Page2.css"
+function Page2() {
 
   const [activeTab, setActiveTab] = useState("tab1")
   // tab 1 is activeTab by default
@@ -111,7 +112,7 @@ function App() {
   return (
     <>
       {/* purple gradient */}
-      <div className="min-h-screen w-full flex items-center justify-center bg-gradient-to-r from-purple-300 to-purple-200">
+      <div className="min-h-screen w-screen flex items-center justify-center bg-gradient-to-r from-purple-300 to-purple-200">
 
         {/* Code from Tailwind CSS setup
          <h1 className="text-3xl font-bold underline">
@@ -143,4 +144,4 @@ function App() {
   )
 }
 
-export default App;
+export default Page2;
