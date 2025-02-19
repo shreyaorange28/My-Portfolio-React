@@ -11,6 +11,22 @@
 
 }
 
+.project_header {
+    font-size: 42px;
+    color:#3D8D7A;
+    transition: 2s;
+}
+
+/* helps create the color transition for the line next to the content block */
+.project_header:hover {
+    font-size: 50px;
+    color:#FE4A49;
+    animation-name: shake;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}   
+
 /* handles each block of content */
 .project_content_block{
     position: relative;
@@ -18,8 +34,10 @@
     color:#3D8D7A;
     font-weight: 500;
     margin-left: 40px;
+    transition: 2s;
 }
 
+/* creates the line next to the content block */
 .project_content_block::before {
     content: '';
     position: absolute;
@@ -31,16 +49,19 @@
     transition: 2s;
 }
 
+/* helps create the color transition for the line next to the content block */
 .project_content_block:hover::before {
     background:#FE4A49;
 }   
 
+.project_content_block:hover {
+    color:#FE4A49;
+}   
 
-
-.project_header {
+.project_title {
     margin-left: 40px;
-
 }
+
 .project_subtitle {
     margin-left: 40px;
 
@@ -52,4 +73,22 @@
 .project_link p{
     margin-left: 40px;
 
+}
+
+
+
+/* provides shaking animation */
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
