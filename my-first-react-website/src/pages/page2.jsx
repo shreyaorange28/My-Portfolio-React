@@ -1,9 +1,9 @@
-
+import "./page.css";
 export function Page2() {
   return (
-      <>
-          <h1>page2</h1>
+      <div className="pageBody">
+          <h1>Page 2 Title</h1>
           <p>blah blah blah</p>
-      </>
+      </div>
   );
 }

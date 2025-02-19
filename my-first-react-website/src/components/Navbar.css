@@ -3,7 +3,7 @@
     top:0;
     left: 0;
     width: 100%;
-    padding: 20px 10%;
+    padding: 20px 5%;
     background: #B3D8A8;
     
     /* makes all the text align right for the nav bar */
@@ -18,6 +18,8 @@
     /* 554640 */
     color: #3D8D7A; 
     font-weight: 700;
+    background: #B3D8A8;
+    
 }
 /* getting rid of spaces between page buttons */
 .navbar {
@@ -26,7 +28,7 @@
 
 .navbar a{
     position: relative;
-    font-size: 18px;
+    font-size: 24px;
     color:#3D8D7A;
     font-weight: 500;
     margin-left: 40px;
