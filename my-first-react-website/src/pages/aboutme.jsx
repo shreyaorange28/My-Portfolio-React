@@ -11,18 +11,6 @@ export function AboutMe() {
                   <p>blah blah blah description blah blah blah descriptionblah blah blah descriptionblah blah blah 
                       descriptionblah blah blah descriptionblah blah blah descriptionblah blah blah descriptionblah</p>              
               </div>
-              <div className="project">
-                  <h3 className="title">Experience Name</h3>
-                  <p className="date">Date and Location</p>
-                  <p>blah blah blah description blah blah blah descriptionblah blah blah descriptionblah blah blah 
-                      descriptionblah blah blah descriptionblah blah blah descriptionblah blah blah descriptionblah</p>              
-              </div>
-              <div className="project">
-                  <h3 className="title">Experience Name</h3>
-                  <p className="date">Date and Location</p>
-                  <p>blah blah blah description blah blah blah descriptionblah blah blah descriptionblah blah blah 
-                      descriptionblah blah blah descriptionblah blah blah descriptionblah blah blah descriptionblah</p>              
-              </div>
           </div>
 
           <div>
@@ -52,21 +40,12 @@ export function AboutMe() {
                   <p>blah blah blah description blah blah blah descriptionblah blah blah descriptionblah blah blah 
                       descriptionblah blah blah descriptionblah blah blah descriptionblah blah blah descriptionblah</p>              
               </div>
-              <div className="project">
-                  <h3 className="title">Experience Name</h3>
-                  <p className="date">Date and Location</p>
-                  <p>blah blah blah description blah blah blah descriptionblah blah blah descriptionblah blah blah 
-                      descriptionblah blah blah descriptionblah blah blah descriptionblah blah blah descriptionblah</p>              
-              </div>
               <p className="footNotes"><a href="/projects">Click here</a> for more projects that I&apos;ve done</p>
           </div>
 
           <div>
             <h2>Fun Facts</h2>
             <ul className="fun_facts">
-              <li>Fun Facts</li>
-              <li>Fun Facts</li>
-              <li>Fun Facts</li>
               <li>Fun Facts</li>
 
             </ul>

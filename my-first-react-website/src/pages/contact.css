@@ -1,3 +1,4 @@
+/* css for the entire page */
 .contactBody {
 
     padding-top: 90px;
@@ -10,10 +11,13 @@
     text-align: center;
     height: 100vh; 
 }
+
+/* css for the blurb before the links */
 .contactBody p {
     font-size: 20px;
 }
 
+/* css to for the images  */
 .contactLogos {
     display: flex;
     justify-content: center; 
@@ -22,6 +26,7 @@
     margin-top: 20px; 
 }
 
+/* css to resize each images */
 .contactLogos img{
     width: 128px;
     height:128px;
