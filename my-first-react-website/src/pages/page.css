@@ -1,4 +1,4 @@
-/* For all of the pages (so they aren't blocked by the nav bar) */
+/* For all of the pages (so they aren't blocked by the nav bar) as they are created -- should be removed after all the css files have been made*/
 .pageBody {
     padding-top: 90px;
     padding-left: 2%;
