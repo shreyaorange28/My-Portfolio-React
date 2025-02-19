@@ -1,4 +1,113 @@
-.about_me_body {
-    padding-top: 90px;
+.page_body {
+    padding-top: 30px;
     padding-left: 2%;
+    width: 100%;
+    flex-direction: column;
+    text-align: left;
+    color: #1c3738;
+
+}
+
+.about_me_header {
+    font-size: 42px;
+    color:#3D8D7A;
+    transition: 2s;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+/* helps create the color transition for the line next to the content block */
+.about_me_header:hover {
+    font-size: 50px;
+    color:#FE4A49;
+    animation-name: shake;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}   
+
+/* handles each block of content */
+.about_me_content_block{
+    position: relative;
+    font-size: 24px;
+    color:#3D8D7A;
+    font-weight: 500;
+    margin-left: 3%;
+    transition: 2s;
+    left: 0;
+    margin-right: 5%;
+    padding-bottom: 35px;
+    padding-top: 10px;
+
+
+}
+
+/* creates the line next to the content block */
+.about_me_content_block::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 90%;
+    background:#89a6fb;
+    transition: 2s;
+}
+
+/* helps create the color transition for the line next to the content block */
+.about_me_content_block:hover::before {
+    background:#FE4A49;
+}   
+
+.about_me_content_block:hover {
+    color:#FE4A49;
+}   
+
+.about_me_title {
+    margin-left: 40px;
+}
+
+.about_me_subtitle {
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between  ;
+    
+}
+/* .about_me_subtitle_left {
+
+} */
+
+.about_me_subtitle_right{
+    margin-left: auto; /* Pushes it to the right */
+    text-align: right;
+}
+
+.about_me_content_body {
+    margin-left: 60px;
+    /* greater margin to account for bullet points */
+
+}
+
+.about_me_link p{
+    margin-left: 40px;
+
+}
+
+
+
+/* provides shaking animation */
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
