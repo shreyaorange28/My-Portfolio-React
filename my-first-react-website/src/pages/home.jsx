@@ -1,7 +1,7 @@
 export function Home() {
     return (
         <>
-            <h1>Home Page</h1>
+            <h1>The Home Page</h1>
         </>
-    )
+    );
 }
