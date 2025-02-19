@@ -1,8 +1,8 @@
 import "./page.css";
-export function Page2() {
+export function AboutMe() {
   return (
       <div className="pageBody">
-          <h1>Page 2 Title</h1>
+          <h1>About Me</h1>
           <p>blah blah blah</p>
       </div>
   );
