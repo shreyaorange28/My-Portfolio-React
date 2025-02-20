@@ -6,7 +6,9 @@ export function Layout() {
         <>
             <Navbar /> 
             <main>
-                <Outlet/>
+                <div className="bg-green-50 h-screen w-screen">
+                    <Outlet/>
+                </div>
             </main>
         </>
     );

@@ -1,39 +1,6 @@
-.header {
-    top:0;
-    left: 0;
-    width: 100%;
-    padding: 20px 5%;
-    background: #B3D8A8;
-    
-    /* makes all the text align right for the nav bar */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
-}
+@import "tailwindcss";
 
-.logo {
-    font-size: 32px;
-    /* 554640 */
-    color: #3D8D7A; 
-    font-weight: 700;
-    background: #B3D8A8;
-    
-}
-/* getting rid of spaces between page buttons */
-.navbar {
-    background: #B3D8A8;
-}
-
-.navbar a{
-    position: relative;
-    font-size: 24px;
-    color:#3D8D7A;
-    font-weight: 500;
-    margin-left: 40px;
-    background-color: #B3D8A8;
-}
-
+/* For navbar links before */
 .navbar a::before {
     content: '';
     position: absolute;
@@ -41,11 +8,11 @@
     left: 0;
     width: 0;
     height: 2px;
-    background:#3D8D7A;
-    transition: .3s;
+    background: #3D8D7A;
+    transition: width 0.3s ease;
 }
 
+/* On hover, expand the underline */
 .navbar a:hover::before {
     width: 100%;
-
 }
