@@ -1,6 +1,6 @@
 # My-Portfolio-React
 
-This project is a work in progress but my final goal is to have an engaging portfolio using react and to learn more about react and other tools on the way. So far, I have
+This is a long-term personal project focused on building a polished, interactive portfolio using React. My goal is to continually develop and improve the site while deepening my understanding of front-end development and web design over time So far, I have
 - Set up the core structure: Home, Projects, About Me, and Contact pages
 - Added and styled all page content
 - Implemented interactive UI elements (e.g. hover effects with color changes and animations)
