@@ -3,7 +3,7 @@
     left: 0;
     width: 100%;
     padding: 20px 5%;
-    background: #B3D8A8;
+    background: #57886C;
     
     /* makes all the text align right for the nav bar */
     display: flex;
@@ -16,23 +16,23 @@
     margin-top: 0.5%;
     font-size: 32px;
     /* 554640 */
-    color: #3D8D7A; 
+    color: #25291C; 
     font-weight: 700;
-    background: #B3D8A8;
+    background: #57886C;
     
 }
 /* getting rid of spaces between page buttons */
 .navbar {
-    background: #B3D8A8;
+    background: #57886C;  
 }
 
 .navbar a{
     position: relative;
     font-size: 24px;
-    color:#3D8D7A;
+    color:#25291C;
     font-weight: 500;
     margin-left: 40px;
-    background-color: #B3D8A8;
+    background-color: #57886C;
 }
 
 .navbar a::before {
@@ -42,7 +42,7 @@
     left: 0;
     width: 0;
     height: 2px;
-    background:#3D8D7A;
+    background:#25291C;
     transition: .3s;
 }
 

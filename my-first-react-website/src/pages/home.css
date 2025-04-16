@@ -5,7 +5,7 @@
     flex-direction: column;
   
     text-align: left;
-    color: #3D8D7A;
+    color: #34252F;
     transition: 2s;
     /* border: 2px dashed #f69c55; */
   }
@@ -50,7 +50,7 @@
 .message:hover {
     width: fit-content;
     font-size: 35px;
-    color:#FE4A49;
+    color:#DB504A;
     animation-duration: 0.5s;
     cursor: pointer;
     

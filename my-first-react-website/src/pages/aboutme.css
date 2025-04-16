@@ -8,7 +8,7 @@
 .about_me_header {
     padding-top: 20px;
     font-size: 42px;
-    color:#3D8D7A;
+    color:#25291C;
     transition: 2s;
     align-items: center;
     justify-content: center;
@@ -19,7 +19,7 @@
 /* helps create the color transition and animations for the header*/
 .about_me_header:hover {
     font-size: 50px;
-    color:#FE4A49;
+    color:#DB504A;
     animation-name: shake;
     animation-duration: 0.5s;
     animation-iteration-count: infinite;
@@ -28,7 +28,7 @@
 
 .about_me_section_header {
     font-size: 36px;
-    color:#3D8D7A;
+    color:#34252F;
     margin-left: 3%;
 
     transition: 2s;
@@ -41,7 +41,7 @@
 .about_me_content_block{
     position: relative;
     font-size: 24px;
-    color:#3D8D7A;
+    color:#34252F;
     font-weight: 500;
     margin-left: 3.5%;
     transition: 2s;
@@ -63,18 +63,18 @@
     left: 0;
     width: 2px;
     height: 90%;
-    background:#89a6fb;
+    background:#34252F;
     transition: 2s;
 }
 
 
 /* helps create the color transition for the line next to the content block */
 .about_me_content_block:hover::before {
-    background:#FE4A49;
+    background:#DB504A;
 }   
 
 .about_me_content_block:hover {
-    color:#FE4A49;
+    color:#DB504A;
 }   
 
 .about_me_title {
@@ -117,18 +117,18 @@
 }
 
 .about_me_content_body ul {
-    list-style-type: disc; /* This sets the bullet style to the standard filled circle */
-    padding-left: 20px; /* This adds some space for the bullets */
+    list-style-type: disc; 
+    padding-left: 20px; 
 }
 
 .about_me_content_body li {
-    margin-bottom: 8px; /* Optional: adds some space between list items if you have multiple */
+    margin-bottom: 8px; 
 }
 
 
 
 .about_me_content_block a {
-    color:#89a6fb;    
+    color:#077187;    
 
 }
 
