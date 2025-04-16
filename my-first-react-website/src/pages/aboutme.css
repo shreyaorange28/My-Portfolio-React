@@ -1,5 +1,4 @@
-.page_body {
-    padding-left: 2%;
+.about_me_body {
     width: 100%;
     flex-direction: column;
     text-align: left;
@@ -14,9 +13,10 @@
     align-items: center;
     justify-content: center;
     display: flex;
+
 }
 
-/* helps create the color transition for the line next to the content block */
+/* helps create the color transition and animations for the header*/
 .about_me_header:hover {
     font-size: 50px;
     color:#FE4A49;
@@ -24,7 +24,7 @@
     animation-duration: 0.5s;
     animation-iteration-count: infinite;
     cursor: pointer;
-}   
+}     
 
 .about_me_section_header {
     font-size: 36px;
