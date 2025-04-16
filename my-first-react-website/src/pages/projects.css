@@ -4,7 +4,6 @@
     width: 100%;
     flex-direction: column;
     text-align: left;
-    color: #1c3738;
 
 }
 
@@ -17,7 +16,7 @@
     display: flex;
 }
 
-/* helps create the color transition for the line next to the content block */
+/* helps create the color transition and animations for the header*/
 .project_header:hover {
     font-size: 50px;
     color:#FE4A49;
@@ -30,7 +29,6 @@
 /* handles each block of content */
 .project_content_block{
     position: relative;
-    font-size: 24px;
     color:#3D8D7A;
     font-weight: 500;
     margin-left: 3%;
@@ -39,8 +37,14 @@
     margin-right: 5%;
     padding-bottom: 35px;
     padding-top: 10px;
+    font-size: x-large;
 
 
+}
+
+/* helps create the color transition for the content*/
+.project_content_block:hover {
+    color:#FE4A49;
 }
 
 /* creates the line next to the content block */
@@ -55,17 +59,15 @@
     transition: 2s;
 }
 
-/* helps create the color transition for the line next to the content block */
+/* helps create the color transition for the line next to the content block*/
 .project_content_block:hover::before {
     background:#FE4A49;
-}   
-
-.project_content_block:hover {
-    color:#FE4A49;
-}   
+}      
 
 .project_title {
     margin-left: 40px;
+    font-size: xx-large;
+
 }
 
 .project_subtitle {
@@ -74,6 +76,7 @@
     justify-content: space-between  ;
     
 }
+
 /* .project_technologies {
 
 } */
@@ -83,11 +86,12 @@
     text-align: right;
 }
 
-.project_content_body {
+.project_content_body { 
     margin-left: 60px;
     /* greater margin to account for bullet points */
-
 }
+
+
 .project_link p{
     margin-left: 40px;
 

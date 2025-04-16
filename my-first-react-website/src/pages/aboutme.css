@@ -1,14 +1,14 @@
 .page_body {
-    padding-top: 30px;
     padding-left: 2%;
     width: 100%;
     flex-direction: column;
     text-align: left;
-    color: #1c3738;
 
 }
 
 .about_me_header {
+    padding-top: 20px;
+
     font-size: 42px;
     color:#3D8D7A;
     transition: 2s;
@@ -27,13 +27,24 @@
     cursor: pointer;
 }   
 
+.about_me_section_header {
+    font-size: 36px;
+    color:#3D8D7A;
+    margin-left: 3%;
+
+    transition: 2s;
+    align-items: left;
+    justify-content: left;
+    display: flex;
+}
+
 /* handles each block of content */
 .about_me_content_block{
     position: relative;
     font-size: 24px;
     color:#3D8D7A;
     font-weight: 500;
-    margin-left: 3%;
+    margin-left: 3.5%;
     transition: 2s;
     left: 0;
     margin-right: 5%;
@@ -42,6 +53,9 @@
 
 
 }
+
+
+
 
 /* creates the line next to the content block */
 .about_me_content_block::before {
@@ -55,6 +69,7 @@
     transition: 2s;
 }
 
+
 /* helps create the color transition for the line next to the content block */
 .about_me_content_block:hover::before {
     background:#FE4A49;
@@ -65,7 +80,18 @@
 }   
 
 .about_me_title {
+    font-size: 28px;
     margin-left: 40px;
+    display: flex;
+    justify-content: space-between  ;
+}
+.about_me_title_left{
+    font-size: 32px;
+}
+.about_me_title_right{
+    font-size: 25px;
+    margin-left: auto; /* Pushes it to the right */
+    text-align: right;
 }
 
 .about_me_subtitle {
@@ -74,9 +100,12 @@
     justify-content: space-between  ;
     
 }
-/* .about_me_subtitle_left {
 
-} */
+.about_me_footnote {
+    margin-left: 40px;
+    display: flex;    
+}
+
 
 .about_me_subtitle_right{
     margin-left: auto; /* Pushes it to the right */
@@ -89,8 +118,19 @@
 
 }
 
-.about_me_link p{
-    margin-left: 40px;
+.about_me_content_body ul {
+    list-style-type: disc; /* This sets the bullet style to the standard filled circle */
+    padding-left: 20px; /* This adds some space for the bullets */
+}
+
+.about_me_content_body li {
+    margin-bottom: 8px; /* Optional: adds some space between list items if you have multiple */
+}
+
+
+
+.about_me_content_block a {
+    color:#89a6fb;    
 
 }
 
