@@ -4,7 +4,8 @@ export function Projects() {
         <div className="page_body">
             <h1 className="project_header">Projects</h1>
             {/* Template for each content block */}
-            <div className="project_content_block">
+
+            {/* <div className="project_content_block">
                 <h2 className="project_title">Name</h2>
                 <div className="project_subtitle">
                     <h3 className="project_technologies">Technologies Used: </h3>
@@ -15,7 +16,7 @@ export function Projects() {
                     <li>test</li>
                 </ul>
                 <a href="" className="project_link"><p>Project Link</p></a>
-            </div>
+            </div> */}
 
             <div className="project_content_block">
                 <h2 className="project_title">This Website!</h2>
@@ -26,10 +27,12 @@ export function Projects() {
                 
                 <div className ="project_content_body">
                     <ul>
-                        <li>Deployed using Netlify</li>
+                        <li>Designed and developed a responsive personal website from scratch using React to showcase my background, projects, and contact information.</li>
+                        <li>Built individual pages using React components with HTML and CSS, including a Home, About Me, Projects, and Contact page.</li>
+                        <li>Implemented interactive and creative features like a custom navigation bar, animated page titles that grow on hover, and color-changing elements across each page</li>
                     </ul>
                 </div>
-                <a href="/" className="project_link"><p>Project Link</p></a>
+                <a href="/" className="project_link"><p>Deployed Using Netlify</p></a>
             </div>
 
             <div className="project_content_block">

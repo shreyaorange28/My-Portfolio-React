@@ -1,1 +1,48 @@
-@import "tailwindcss";
+.page_body {
+    padding-left: 2%;
+    width: 100%;
+    height: 80vh; /* Makes the container fill the viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* Vertically center */
+    align-items: flex-start;  /* Align to the left */
+    
+    text-align: left;
+    color: #3D8D7A;
+    transition: 2s;
+    line-height: 100px;
+}
+
+
+.span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.welcome {
+    font-size: 60px;
+}
+
+.intro {
+    font-size: 50px;
+
+}
+
+.message {
+    font-size: 30px;
+    transition: 4s;
+    align-items: center;
+    /* justify-content: center; */
+    display: flex;
+
+
+}
+.message:hover {
+    width: fit-content;
+    font-size: 35px;
+    color:#FE4A49;
+    animation-duration: 0.5s;
+    cursor: pointer;
+    
+}

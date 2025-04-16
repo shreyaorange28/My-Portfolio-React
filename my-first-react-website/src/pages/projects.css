@@ -97,6 +97,20 @@
 
 }
 
+.project_content_body ul {
+    list-style-type: disc; /* This sets the bullet style to the standard filled circle */
+    padding-left: 20px; /* This adds some space for the bullets */
+}
+
+.project_content_body li {
+    margin-bottom: 8px; /* Optional: adds some space between list items if you have multiple */
+}
+
+.project_content_block a {
+    color:#89a6fb;    
+
+}
+
 
 
 /* provides shaking animation */
