@@ -1,26 +1,35 @@
 .page_body {
-    padding-left: 2%;
+    padding-left: 20px;
     width: 100%;
-    height: 80vh; /* Makes the container fill the viewport height */
+    height: 80vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;  /* Vertically center */
-    align-items: flex-start;  /* Align to the left */
-    
+  
     text-align: left;
     color: #3D8D7A;
     transition: 2s;
-    line-height: 100px;
+    /* border: 2px dashed #f69c55; */
+  }
+  
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    line-height: normal;
 }
-
-
+  
+  
 .span {
+    padding-left: 20px;
     display: inline-block;
     vertical-align: middle;
     line-height: normal;
+    
 }
 
 .welcome {
+    
     font-size: 60px;
 }
 
@@ -46,3 +55,10 @@
     cursor: pointer;
     
 }
+
+.footnote {
+    font-style: italic;
+    font-size: 20px;
+    margin-top: auto;
+    padding-top: 10px;
+  }
