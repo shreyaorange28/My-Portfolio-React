@@ -4,6 +4,7 @@ This is a long-term personal project focused on building a polished, interactive
 - Set up the core structure: Home, Projects, About Me, and Contact pages
 - Added and styled all page content
 - Implemented interactive UI elements (e.g. hover effects with color changes and animations)
+
 Next, I hope to add in more advanced or dynamic features and continue refining the design. The project is deployed through netlify at [https://shreya-thoth.netlify.app/](https://shreya-thoth.netlify.app/).
 
 ## My Progress
