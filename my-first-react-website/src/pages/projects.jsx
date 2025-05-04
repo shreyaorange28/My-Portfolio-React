@@ -2,21 +2,9 @@ import "./projects.css";
 export function Projects() {
     return (
         <div className="page_body">
+            {/* Background */}
+            <div className="projects_background"></div>
             <h1 className="project_header">Projects</h1>
-            {/* Template for each content block */}
-
-            {/* <div className="project_content_block">
-                <h2 className="project_title">Name</h2>
-                <div className="project_subtitle">
-                    <h3 className="project_technologies">Technologies Used: </h3>
-                    <h3 className="project_date">Date</h3>
-                </div>
-                
-                <ul className ="project_content_body">
-                    <li>test</li>
-                </ul>
-                <a href="" className="project_link"><p>Project Link</p></a>
-            </div> */}
 
             <div className="project_content_block">
                 <h2 className="project_title">This Website!</h2>
