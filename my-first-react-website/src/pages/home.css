@@ -1,24 +1,24 @@
 * {
-    background: var(--lightest-blue);
-    color: var(--darkest-blue);
+    color: #14315a;
     z-index: 0;
 }
-
 
 .page_body {
     width: 100%;
     height: 80vh;
     display: flex;
     flex-direction: column;
-  
+    color: #14315a;
     text-align: left;
     color: #34252F;
     transition: 2s;
     z-index: 20;
+    background-color: #c0d6f7;
 
   }
   
 .content {
+
     padding-left: 50px;
     width: 90%;
     display: flex;
@@ -27,9 +27,7 @@
     height: 100%;
     line-height: normal;
     z-index: 20;
-    background-color: rgba(255, 255, 255, 0); /* Semi-transparent white color */
-
-
+    background-color: rgba(255, 255, 255, 0); 
 }
   
   
@@ -45,13 +43,13 @@
 /* Text/Content Formatting */
 .welcome {    
     font-size: 60px;
-    background-color: rgba(255, 255, 255, 0); /* Semi-transparent white color */
+    background-color: rgba(255, 255, 255, 0); 
     
 }
 
 .intro {
     font-size: 50px;
-    background-color: rgba(255, 255, 255, 0); /* Semi-transparent white color */
+    background-color: rgba(255, 255, 255, 0); 
 
 
 }
@@ -61,7 +59,7 @@
     transition: 4s;
     align-items: center;
     display: flex;
-    background-color: rgba(255, 255, 255, 0); /* Semi-transparent white color */
+    background-color: rgba(255, 255, 255, 0); 
 
 
 }
@@ -88,18 +86,6 @@
 
 /* Background CSS */
 
-
-
-.test {
-    position: relative;
-    z-index: 1;
-
-}
-
-
-/*  created hills using shapedivider.app
-    original shape divider code: 1746363830     */
-
 .sun {
     position:absolute;
     bottom: 400px;
@@ -107,13 +93,17 @@
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background-color: #f5854f; /* Optional: Add a background color */
+    background-color: #f5854f;
 }
+
+
+/*  created hills using shapedivider.app
+    original shape divider code: 1746363830     */
 
 
 .hill {
     position: absolute;
-    bottom: -30px;
+    bottom: 0px;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -135,4 +125,13 @@
     fill: #6f9581;
     z-index: 1;
 
+}
+
+.filler {
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 150px;
+    background-color: #c0d6f7;
 }

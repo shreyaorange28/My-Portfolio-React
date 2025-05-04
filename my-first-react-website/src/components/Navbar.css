@@ -1,6 +1,7 @@
 * {
     --darkest-blue: #14315a;
     --lightest-blue: #c0d6f7;
+
 }
 
 .header {
@@ -26,6 +27,11 @@
     font-weight: 700;
     background: var(--darkest-blue);
     
+}
+
+.logo::before {
+    background: var(--darkest-blue);
+
 }
 /* getting rid of spaces between page buttons */
 .navbar {

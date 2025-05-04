@@ -1,7 +1,21 @@
 import "./aboutme.css";
 export function AboutMe() {
   return (
-      <div className="about_me_body">
+      <div>
+        {/* Background */}
+        <div className="background">
+            
+            <div className="bg-animation">
+              <div id='stars'></div>
+              <div id='stars2'></div>
+              <div id='stars3'></div>
+              <div id='stars4'></div>
+            </div>
+        </div>
+        
+        {/* About Me Page Content */}
+          <div className="about_me_body">
+        
           <h1 className="about_me_header">About Me</h1>
 
           {/* 
@@ -144,7 +158,7 @@ export function AboutMe() {
                     <ul>
                         <li>Crocheting and Knitting - I mostly do amigurumi stuff</li>
                         <li>Videogames - Minecraft, Stardew Valley, Dance Central 3, Animal Crossing, Valorant, etc.</li>
-                        <li>Things I&apos;ve been experimenting with: <a href="/projects">Making Videogames</a>, <a href="https://tryhackme.com/p/shreyaorange">Open Source Intelligence Challenges</a></li>
+                        <li>Things I&apos;ve been experimenting with: <a href="/projects">Making Videogames</a>, <a href="https://tryhackme.com/p/shreyaorange">Open Source Intelligence Challenges</a>, <a href="https://www.duolingo.com/profile/0rangePotatoChip">Duolingo (I&apos;m learning Chinese)</a></li>
                     </ul>
                 </div>
               </div>
@@ -183,8 +197,8 @@ export function AboutMe() {
           </div>
 
 
-          
-          
+
       </div>
+    </div>
   );
 }
