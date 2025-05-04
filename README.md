@@ -16,8 +16,8 @@ Next, I hope to add in more advanced or dynamic features and continue refining t
     - My First Progress Video
       <video src="https://github.com/user-attachments/assets/0cf9cc9e-3785-4b3a-a422-7669d401af2f"></video>
 * Day 3: The contact page is functionally done and it links to my github, linkedin, and my email (it autofills with a subject and content). I've been working on the projects page and I added some fun features like having the text on the page turn red as the mouse stays on it and the title shake and grow. I also figured out how to deploy the website following [this tutorial.](https://www.youtube.com/watch?v=XMGOfJxnH7s&t=3s)
-* Day 4: I filled in all of the content I wanted for the home page, the about me page, and the projects page and I changed the color scheme using a [color scheme generator](https://coolors.co/). I also reformatted all of the pages to look a little nicer. 
-  
+* Day 4: I filled in all of the content I wanted for the home page, the about me page, and the projects page and I changed the color scheme using a [color scheme generator](https://coolors.co/). I also reformatted all of the pages to look a little nicer.
+* Day 5: I finally made a mockup of what I want my website to look like. I'm keeping it basic for now but I hope to have the home page done soon. [Here's the link!](https://www.canva.com/design/DAGme0MpjFU/lu7dUZDz3Y776HmzpowlSw/view?utm_content=DAGme0MpjFU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h43cb69348b)
  ## Next Steps
  * For each tab
      - Home Tab - I need to add some kind of dynamic background but I would like to make it myself. I'm thinking of something like [this](https://p5aholic.me/) or [this](https://vincentgarreau.com/particles.js/)
