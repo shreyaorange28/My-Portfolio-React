@@ -5,7 +5,7 @@ export function Home() {
           <div className="page_body">
           
           <div className="content">
-            <h1 className="welcome">Welcome to my website! *</h1>
+            <h1 className="welcome">Welcome to my website!</h1>
             <h2 className="intro">
               My name is Shreya and I am currently an undergraduate student at Virginia Tech
             </h2>
