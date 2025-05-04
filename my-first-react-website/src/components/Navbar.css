@@ -1,9 +1,15 @@
+* {
+    --darkest-blue: #14315a;
+    --lightest-blue: #c0d6f7;
+}
+
 .header {
     top:0;
     left: 0;
     width: 100%;
     padding: 20px 4%;
-    background: #57886C;
+    background: var(--darkest-blue);
+    color: var(--lightest-blue);
     
     /* makes all the text align right for the nav bar */
     display: flex;
@@ -16,23 +22,23 @@
     margin-top: 0.5%;
     font-size: 32px;
     /* 554640 */
-    color: #25291C; 
+    color: var(--lightest-blue); 
     font-weight: 700;
-    background: #57886C;
+    background: var(--darkest-blue);
     
 }
 /* getting rid of spaces between page buttons */
 .navbar {
-    background: #57886C;  
+    background: var(--darkest-blue);  
 }
 
 .navbar a{
     position: relative;
     font-size: 24px;
-    color:#25291C;
+    color:var(--lightest-blue);
     font-weight: 500;
     margin-left: 40px;
-    background-color: #57886C;
+    background-color: var(--darkest-blue);
 }
 
 .navbar a::before {
@@ -42,7 +48,7 @@
     left: 0;
     width: 0;
     height: 2px;
-    background:#25291C;
+    background:var(--lightest-blue);
     transition: .3s;
 }
 

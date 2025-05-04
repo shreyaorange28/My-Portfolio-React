@@ -1,3 +1,10 @@
+* {
+    background: var(--lightest-blue);
+    color: var(--darkest-blue);
+    z-index: 0;
+}
+
+
 .page_body {
     width: 100%;
     height: 80vh;
@@ -7,7 +14,8 @@
     text-align: left;
     color: #34252F;
     transition: 2s;
-    /* border: 2px dashed #f69c55; */
+    z-index: 20;
+
   }
   
 .content {
@@ -18,6 +26,10 @@
     justify-content: center;
     height: 100%;
     line-height: normal;
+    z-index: 20;
+    background-color: rgba(255, 255, 255, 0); /* Semi-transparent white color */
+
+
 }
   
   
@@ -27,15 +39,20 @@
     vertical-align: middle;
     line-height: normal;
     
+    
 }
 
-.welcome {
-    
+/* Text/Content Formatting */
+.welcome {    
     font-size: 60px;
+    background-color: rgba(255, 255, 255, 0); /* Semi-transparent white color */
+    
 }
 
 .intro {
     font-size: 50px;
+    background-color: rgba(255, 255, 255, 0); /* Semi-transparent white color */
+
 
 }
 
@@ -44,6 +61,7 @@
     transition: 4s;
     align-items: center;
     display: flex;
+    background-color: rgba(255, 255, 255, 0); /* Semi-transparent white color */
 
 
 }
@@ -65,5 +83,56 @@
 .footnote h3{
     font-style: italic;
     font-size: 20px;
+
+}
+
+/* Background CSS */
+
+
+
+.test {
+    position: relative;
+    z-index: 1;
+
+}
+
+
+/*  created hills using shapedivider.app
+    original shape divider code: 1746363830     */
+
+.sun {
+    position:absolute;
+    bottom: 400px;
+    left: 1250px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #f5854f; /* Optional: Add a background color */
+}
+
+
+.hill {
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: 1;
+}
+
+.hill svg {
+    position: relative;
+    display: block;
+    width: calc(164% + 1.3px);
+    height: 250px;
+    z-index: 1;
+
+}
+
+.hill .shape-fill {
+    fill: #6f9581;
+    z-index: 1;
 
 }
